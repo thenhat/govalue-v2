@@ -1,0 +1,12 @@
+[class*="icon-"] {
+  &.text-white {
+    &::before {
+      color: white !important;
+    }
+  }
+  &.text-primary {
+    &::before {
+      color: cornflowerblue !important;
+    }
+  }
+}

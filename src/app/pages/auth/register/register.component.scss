@@ -1,0 +1,143 @@
+.register-layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  .register-intro{
+    .title-intro{
+      font-size: 30px;
+      color: #005689;
+    }
+    .listing-intro{
+      ul{
+        li{
+          padding: 10px 0px;
+        }
+      }
+    }
+    .tnd{
+      font-size: 12px;
+      color: #a4a4a4;
+      font-weight: lighter;
+      span>span{
+        color: #005689;
+      }
+    }
+  }
+
+  .register-wrapper {
+    max-width: 540px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: "Myriad Pro";
+
+    .register-title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      border-radius: 10px 10px 0px 0px;
+      height: 65px;
+      width: 100%;
+      background: #1b86ce;
+      font-size: 30px;
+    }
+    .register-content{
+      padding: 30px;
+      .register-form {
+        .group-form-register {
+          .form-group {
+            margin-bottom: 0.5rem;
+            label {
+              font-size: 14px;
+              font-weight: bold;
+              color: #464646;
+              margin-bottom: 0.3rem;
+
+              &.form-check-label{
+                font-weight: normal;
+              }
+            }
+
+            input{
+              &.form-control{
+                height: 32px;
+                border: 1px solid #959595;
+                border-radius: 0;
+              }
+            }
+
+            i{
+              color: #a4a4a4;
+              font-size: 11px;
+            }
+          }
+          .btn-primary{
+            width: 100%;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            height: 32px;
+            background: #f77b18;
+            border: none;
+            border-radius: 10px;
+          }
+
+          .alert-acc{
+            margin-top: 10px;
+            margin-bottom: 0;
+            a{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .box-right-register {
+        .title{
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          color: #464646;
+        }
+        .group-btn-user{
+          font-size: 14px;
+          .user-btn{
+            height: 40px;
+            border-radius: 10px;
+            color: #fff;
+            width: 100%;
+            margin-bottom: 0.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .fb-button{
+            background: #265b9d;
+          }
+
+          .gg-button{
+            background: #ff4a35;
+          }
+
+          .ld-button{
+            background: #007cbc;
+          }
+          .alert-user-acc{
+            padding-top: 10px;
+            font-size: 11px;
+            span{
+              color: #005689;
+            }
+          }
+        }
+      }
+    }
+  }
+}
